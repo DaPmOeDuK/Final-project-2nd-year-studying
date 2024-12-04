@@ -5,3 +5,5 @@ base = {
     "user_id": INT + KEY
 
 }
+
+users = s_t.Taper("users", "data.db").create_table(base)
